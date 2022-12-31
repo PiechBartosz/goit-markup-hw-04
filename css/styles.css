@@ -36,6 +36,11 @@ h2 {
   text-align: center;
   padding: 200px 0;
   background-color: var(--background-color);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(/images/background-index.jpg);
 }
 .display-center {
   text-align: center;
@@ -324,11 +329,15 @@ h2 {
 /* 4 */
 
 .ellypse {
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: #afb1b8;
 }
 
 .ellypse:hover {
   background-color: var(--fifth-color);
   cursor: pointer;
+  border-radius: 50%;
 }
 
 .icon-position {
@@ -368,4 +377,55 @@ h2 {
 
 .our-clients-padding {
   padding-bottom: 94px;
+}
+
+.iphone-icon-position {
+  vertical-align: middle;
+  align-items: center;
+  margin-top: 33px;
+  margin-bottom: 31px;
+  margin-right: 10px;
+}
+
+.mail-icon-position {
+  vertical-align: middle;
+  align-items: center;
+  margin-top: 34px;
+  margin-bottom: 34px;
+  margin-right: 10px;
+}
+
+.footer-display {
+  display: flex;
+}
+
+.join-us {
+  color: var(--third-color);
+  font-weight: 700px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  margin-bottom: 20px;
+  padding-top: 12px;
+}
+.social-links {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+.shape {
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: #ffffff;
+}
+.shape:hover {
+  background-color: var(--fifth-color);
+  cursor: pointer;
+  fill: #ffffff;
+  border-radius: 50%;
+}
+
+.join-us-margin {
+  margin-left: 70px;
 }
