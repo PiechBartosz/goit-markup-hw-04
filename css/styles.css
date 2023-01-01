@@ -326,8 +326,6 @@ h2 {
   border-radius: 4px;
 }
 
-/* 4 */
-
 .ellypse {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
@@ -338,11 +336,11 @@ h2 {
   background-color: var(--fifth-color);
   cursor: pointer;
   border-radius: 50%;
+  fill: #ffffff;
 }
 
 .icon-position {
   display: inline;
-  padding-top: 354px;
 }
 
 .our-clients-display {
@@ -359,6 +357,7 @@ h2 {
   border-radius: 4px;
   border-color: #afb1b8;
   padding: 16px 32px;
+  fill: #afb1b8;
 }
 .clients:hover {
   border-color: var(--fifth-color);
@@ -385,6 +384,7 @@ h2 {
   margin-top: 33px;
   margin-bottom: 31px;
   margin-right: 10px;
+  fill: currentColor;
 }
 
 .mail-icon-position {
@@ -393,6 +393,7 @@ h2 {
   margin-top: 34px;
   margin-bottom: 34px;
   margin-right: 10px;
+  fill: currentColor;
 }
 
 .footer-display {
@@ -428,4 +429,9 @@ h2 {
 
 .join-us-margin {
   margin-left: 70px;
+}
+
+.border-images:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
