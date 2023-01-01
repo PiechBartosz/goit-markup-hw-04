@@ -40,7 +40,7 @@ h2 {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(/images/background-index.jpg);
+    url(../images/background-index.jpg);
 }
 .display-center {
   text-align: center;
