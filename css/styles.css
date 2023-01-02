@@ -83,7 +83,7 @@ h2 {
   margin-left: 93px;
 }
 
-.logo-position {
+.padding-body {
   padding-bottom: 25px;
   padding-top: 24px;
 }
@@ -116,7 +116,10 @@ h2 {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration-line: none;
-  padding: 32px 0;
+}
+
+.nav-structure-active {
+  color: var(--fifth-color);
 }
 
 .nav-structure:hover {
@@ -189,6 +192,7 @@ h2 {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  padding-top: 30px;
 
   color: var(--main-color);
   margin-bottom: 10px;
@@ -290,6 +294,8 @@ h2 {
 
 .nav-contact-color {
   color: var(--second-color);
+  display: flex;
+  align-items: center;
 }
 
 .lorem {
@@ -324,12 +330,15 @@ h2 {
 .rectangle-style {
   background-color: var(--seventh-color);
   border-radius: 4px;
+  padding-bottom: 30px;
 }
 
 .ellypse {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   fill: #afb1b8;
+
+  margin-bottom: 30px;
 }
 
 .ellypse:hover {
@@ -381,8 +390,7 @@ h2 {
 .iphone-icon-position {
   vertical-align: middle;
   align-items: center;
-  margin-top: 33px;
-  margin-bottom: 31px;
+
   margin-right: 10px;
   fill: currentColor;
 }
@@ -390,8 +398,7 @@ h2 {
 .mail-icon-position {
   vertical-align: middle;
   align-items: center;
-  margin-top: 34px;
-  margin-bottom: 34px;
+
   margin-right: 10px;
   fill: currentColor;
 }
@@ -434,4 +441,5 @@ h2 {
 .border-images:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
 }
